@@ -7,7 +7,7 @@ CV-stories
 ## Plan vs Done
 - [x] Implementácia API endpointov (Account, Auth, Resume, Story)
 - [x] DTO - tvorba mapovačov entít pre API response a request dáta
-- [] Následne testovanie jednotlivých servís, kontrolérov a logiku kódu
+- [ ] Následne testovanie jednotlivých servís, kontrolérov a logiku kódu
   pomocou JUnit testov
 
 
