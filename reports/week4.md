@@ -9,7 +9,7 @@ CV-stories
 - [x] Tvorba jednotlivých UI komponnentov a štýlovanie
 - [x] Onboarding podstránky (Login, Reset/Frogot password, Registration...)
 
-Celkový čas 0hodín
+Celkový čas 6,5 hodín
 
 Problémy(Vue.js2 vs. Vue.js3):
     - i18n (preklady) - stále pretrváva
