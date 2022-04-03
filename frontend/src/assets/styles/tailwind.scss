@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+
+  /**
+  Onboarding modals
+   */
+
+  .site-bg {
+    @apply min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8;
+  }
+
+  .box-wrapper{
+    @apply mt-8 sm:mx-auto sm:w-full sm:max-w-md;
+  }
+
+  .box-bg {
+    @apply bg-secondary-bg dark:bg-secondary-bg-dark py-8 px-4 shadow rounded-lg sm:px-10;
+  }
+
+
+  /**
+  Inputs
+   */
+
+  .input-text-label {
+    @apply block text-sm font-medium text-primary-text dark:text-primary-text-dark;
+  }
+
+  .label-primary {
+    @apply font-normal text-primary-text dark:text-primary-text-dark;
+  }
+
+  .label-secondary {
+    @apply font-normal text-secondary-text dark:text-secondary-text-dark;
+  }
+
+  .input-text-field {
+    @apply appearance-none block w-full px-3 py-2 border border-box-border
+    rounded-md shadow-sm placeholder-plc-text focus:outline-none focus:ring-primary focus:border-primary sm:text-sm
+    bg-box dark:bg-box-dark dark:border-box-border-dark dark:placeholder-plc-text-dark dark:text-white dark:focus:ring-primary dark:focus:border-primary;
+  }
+
+
+  /**
+  Switches
+   */
+  .switch-span{
+    @apply pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200;
+  }
+
+  .switch {
+    @apply relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 dark:bg-box-dark dark:border-box-border-dark;
+  }
+
+  .switch-label {
+    @apply text-sm font-medium text-primary-text dark:text-primary-text-dark;
+  }
+
+  .switch-description {
+    @apply text-sm text-secondary-text dark:text-secondary-text-dark;
+  }
+
+
+  /**
+  Buttons
+   */
+
+  .main-btn {
+    @apply w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium
+    text-btn-text dark:text-btn-text-dark bg-primary hover:bg-primary-darker
+    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary;
+  }
+
+  .text-btn{
+    @apply font-medium text-primary hover:text-primary-light;
+  }
+
+
+  /**
+  Checkboxes
+   */
+
+  .checkbox {
+    @apply h-4 w-4 text-primary focus:ring-primary border-box-border rounded bg-box dark:bg-box-dark dark:border-box-border-dark dark:focus:ring-primary dark:ring-offset-secondary-bg-dark;
+  }
+
+  .checkbox-label {
+    @apply ml-2 block text-sm text-primary-text dark:text-primary-text-dark;
+  }
+
+}
+
